@@ -2,20 +2,15 @@ import FormSearch from "./FormSearch";
 import Show from "./Show";
 
 const View = () => {
-    return (
-        <>
-            <div>
-                <FormSearch />
-            </div>
+  return (
+    <>
+      <FormSearch />
 
-            <br/>
-            <br/>
+      <br />
 
-            <div>
-                <Show />
-            </div>
-        </>
-    );
+      <Show />
+    </>
+  );
 }
 
 export default View;
