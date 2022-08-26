@@ -9,7 +9,7 @@ const Show = () => {
   const showsContext = useContext(ShowsContext);
   const { shows } = showsContext;
 
-  if(shows.length === 0) {
+  if(([] || shows).length === 0) {
     return (
       <AlertComponent/>
     )
